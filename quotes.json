@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "quote": "Come, follow me.",
+    "quote": "Come, follow me, and I will make you fishers of men.",
     "speaker": "Jesus",
     "reference": "Matthew 4:19",
     "subject": "Calling",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "quote": "Follow me.",
+    "quote": "Follow me, and I will make you fishers of men.",
     "speaker": "Jesus",
     "reference": "John 21:19",
     "subject": "Calling",
@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "quote": "Feed my sheep.",
+    "quote": "Feed my sheep. Tend my lambs with love.",
     "speaker": "Jesus",
     "reference": "John 21:17",
     "subject": "Care",
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "quote": "Fear not, little flock.",
+    "quote": "Fear not, little flock; for it is your Father's good pleasure to give you the kingdom.",
     "speaker": "Jesus",
     "reference": "Luke 12:32",
     "subject": "Comfort",
@@ -177,7 +177,7 @@
   },
   {
     "id": 17,
-    "quote": "Come unto me.",
+    "quote": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
     "speaker": "Jesus",
     "reference": "Matthew 11:28",
     "subject": "Comfort",
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "quote": "The Lord is at hand.",
+    "quote": "The Lord is at hand. Be careful for nothing; in every thing give thanks.",
     "speaker": "Paul",
     "reference": "Philippians 4:5",
     "subject": "Comfort",
@@ -232,7 +232,7 @@
   },
   {
     "id": 22,
-    "quote": "His compassions fail not.",
+    "quote": "His compassions fail not. They are new every morning: great is thy faithfulness.",
     "speaker": "Jeremiah",
     "reference": "Lamentations 3:22",
     "subject": "Compassion",
@@ -254,7 +254,7 @@
   },
   {
     "id": 24,
-    "quote": "Love your enemies.",
+    "quote": "Love your enemies, bless them that curse you, do good to them that hate you.",
     "speaker": "Jesus",
     "reference": "Matthew 5:44",
     "subject": "Compassion",
@@ -309,7 +309,7 @@
   },
   {
     "id": 29,
-    "quote": "Abide in me, and I in you.",
+    "quote": "Abide in me, and I in you. As the branch cannot bear fruit of itself, neither can ye.",
     "speaker": "Jesus",
     "reference": "John 15:4",
     "subject": "Connection",
@@ -529,7 +529,7 @@
   },
   {
     "id": 49,
-    "quote": "Pray without ceasing.",
+    "quote": "Pray without ceasing. In everything give thanks: for this is the will of God.",
     "speaker": "Paul",
     "reference": "1 Thessalonians 5:17",
     "subject": "Faith",
@@ -661,7 +661,7 @@
   },
   {
     "id": 61,
-    "quote": "A friend loveth at all times.",
+    "quote": "A friend loveth at all times, and a brother is born for adversity.",
     "speaker": "Solomon",
     "reference": "Proverbs 17:17",
     "subject": "Friendship",
@@ -727,7 +727,7 @@
   },
   {
     "id": 67,
-    "quote": "In every thing give thanks.",
+    "quote": "In every thing give thanks: for this is the will of God concerning you.",
     "speaker": "Paul",
     "reference": "1 Thessalonians 5:18",
     "subject": "Gratitude",
@@ -738,17 +738,6 @@
   },
   {
     "id": 68,
-    "quote": "In everything give thanks.",
-    "speaker": "Paul",
-    "reference": "1 Thessalonians 5:18",
-    "subject": "Gratitude",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 3
-  },
-  {
-    "id": 69,
     "quote": "Enter into his gates with thanksgiving, and into his courts with praise.",
     "speaker": "Unknown",
     "reference": "Psalm 100:4",
@@ -759,7 +748,7 @@
     "subject_order": 4
   },
   {
-    "id": 70,
+    "id": 69,
     "quote": "Yea, though I walk through the valley of the shadow of death, I will fear no evil.",
     "speaker": "David",
     "reference": "Psalm 23:4",
@@ -770,7 +759,7 @@
     "subject_order": 1
   },
   {
-    "id": 71,
+    "id": 70,
     "quote": "The Lord is nigh unto them that are of a broken heart.",
     "speaker": "David",
     "reference": "Psalm 34:18",
@@ -781,7 +770,7 @@
     "subject_order": 2
   },
   {
-    "id": 72,
+    "id": 71,
     "quote": "The Lord is close unto them that are brokenhearted; and saveth such as be of a contrite spirit.",
     "speaker": "David",
     "reference": "Psalm 34:18",
@@ -792,7 +781,7 @@
     "subject_order": 3
   },
   {
-    "id": 73,
+    "id": 72,
     "quote": "He healeth the broken in heart, and bindeth up their wounds.",
     "speaker": "David",
     "reference": "Psalm 147:3",
@@ -803,8 +792,8 @@
     "subject_order": 4
   },
   {
-    "id": 74,
-    "quote": "Blessed are they that mourn.",
+    "id": 73,
+    "quote": "Blessed are they that mourn: for they shall be comforted.",
     "speaker": "Jesus",
     "reference": "Matthew 5:4",
     "subject": "Grief",
@@ -814,7 +803,7 @@
     "subject_order": 5
   },
   {
-    "id": 75,
+    "id": 74,
     "quote": "Blessed are they that mourn: for they shall be comforted.",
     "speaker": "Jesus",
     "reference": "Matthew 5:4",
@@ -825,7 +814,7 @@
     "subject_order": 6
   },
   {
-    "id": 76,
+    "id": 75,
     "quote": "If ye continue in my word, then are ye my disciples indeed.",
     "speaker": "Jesus",
     "reference": "John 8:31",
@@ -836,7 +825,7 @@
     "subject_order": 1
   },
   {
-    "id": 77,
+    "id": 76,
     "quote": "Be ye therefore perfect, even as your Father which is in heaven is perfect.",
     "speaker": "Jesus",
     "reference": "Matthew 5:48",
@@ -847,7 +836,7 @@
     "subject_order": 2
   },
   {
-    "id": 78,
+    "id": 77,
     "quote": "Train up a child in the way he should go: and when he is old, he will not depart from it.",
     "speaker": "Solomon",
     "reference": "Proverbs 22:6",
@@ -858,7 +847,7 @@
     "subject_order": 1
   },
   {
-    "id": 79,
+    "id": 78,
     "quote": "He healeth the broken in heart.",
     "speaker": "David",
     "reference": "Psalm 147:3",
@@ -869,8 +858,8 @@
     "subject_order": 1
   },
   {
-    "id": 80,
-    "quote": "He restoreth my soul.",
+    "id": 79,
+    "quote": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.",
     "speaker": "David",
     "reference": "Psalm 23:3",
     "subject": "Healing",
@@ -880,7 +869,7 @@
     "subject_order": 2
   },
   {
-    "id": 81,
+    "id": 80,
     "quote": "Let all bitterness be put away from you.",
     "speaker": "Paul",
     "reference": "Ephesians 4:31",
@@ -891,7 +880,7 @@
     "subject_order": 3
   },
   {
-    "id": 82,
+    "id": 81,
     "quote": "Surely goodness and mercy shall follow me.",
     "speaker": "David",
     "reference": "Psalm 23:6",
@@ -902,7 +891,7 @@
     "subject_order": 1
   },
   {
-    "id": 83,
+    "id": 82,
     "quote": "Weeping may endure for a night, but joy cometh in the morning.",
     "speaker": "David",
     "reference": "Psalm 30:5",
@@ -913,7 +902,7 @@
     "subject_order": 2
   },
   {
-    "id": 84,
+    "id": 83,
     "quote": "The Lord is good; his mercy is everlasting.",
     "speaker": "David",
     "reference": "Psalm 100:5",
@@ -924,7 +913,7 @@
     "subject_order": 3
   },
   {
-    "id": 85,
+    "id": 84,
     "quote": "He will fulfil the desire of them that fear him.",
     "speaker": "David",
     "reference": "Psalm 145:19",
@@ -935,7 +924,7 @@
     "subject_order": 4
   },
   {
-    "id": 86,
+    "id": 85,
     "quote": "Surely goodness and mercy shall follow me all the days of my life.",
     "speaker": "David",
     "reference": "Psalm 23:6",
@@ -946,7 +935,7 @@
     "subject_order": 5
   },
   {
-    "id": 87,
+    "id": 86,
     "quote": "The Lord will perfect that which concerneth me.",
     "speaker": "David",
     "reference": "Psalm 138:8",
@@ -957,7 +946,7 @@
     "subject_order": 6
   },
   {
-    "id": 88,
+    "id": 87,
     "quote": "The Lord taketh pleasure in them that fear him.",
     "speaker": "David",
     "reference": "Psalm 147:11",
@@ -968,7 +957,7 @@
     "subject_order": 7
   },
   {
-    "id": 89,
+    "id": 88,
     "quote": "The Lord will give grace and glory.",
     "speaker": "David",
     "reference": "Psalm 84:11",
@@ -979,7 +968,7 @@
     "subject_order": 8
   },
   {
-    "id": 90,
+    "id": 89,
     "quote": "They that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles.",
     "speaker": "Isaiah",
     "reference": "Isaiah 40:31",
@@ -990,7 +979,7 @@
     "subject_order": 9
   },
   {
-    "id": 91,
+    "id": 90,
     "quote": "I know the thoughts that I think toward you… thoughts of peace.",
     "speaker": "Jeremiah",
     "reference": "Jeremiah 29:11",
@@ -1001,8 +990,8 @@
     "subject_order": 10
   },
   {
-    "id": 92,
-    "quote": "They are new every morning: great is thy faithfulness.",
+    "id": 91,
+    "quote": "The steadfast love of the Lord never ceases; his mercies are new every morning: great is thy faithfulness.",
     "speaker": "Jeremiah",
     "reference": "Lamentations 3:23",
     "subject": "Hope",
@@ -1012,18 +1001,7 @@
     "subject_order": 11
   },
   {
-    "id": 93,
-    "quote": "They are new every morning.",
-    "speaker": "Jeremiah",
-    "reference": "Lamentations 3:23",
-    "subject": "Hope",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 12
-  },
-  {
-    "id": 94,
+    "id": 92,
     "quote": "With God all things are possible.",
     "speaker": "Jesus",
     "reference": "Matthew 19:26",
@@ -1034,7 +1012,7 @@
     "subject_order": 13
   },
   {
-    "id": 95,
+    "id": 93,
     "quote": "If ye shall ask any thing in my name, I will do it.",
     "speaker": "Jesus",
     "reference": "John 14:14",
@@ -1045,7 +1023,7 @@
     "subject_order": 14
   },
   {
-    "id": 96,
+    "id": 94,
     "quote": "Because I live, ye shall live also.",
     "speaker": "Jesus",
     "reference": "John 14:19",
@@ -1056,7 +1034,7 @@
     "subject_order": 15
   },
   {
-    "id": 97,
+    "id": 95,
     "quote": "I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live.",
     "speaker": "Jesus",
     "reference": "John 11:25",
@@ -1067,7 +1045,7 @@
     "subject_order": 16
   },
   {
-    "id": 98,
+    "id": 96,
     "quote": "I am the light of the world: he that followeth me shall not walk in darkness.",
     "speaker": "Jesus",
     "reference": "John 8:12",
@@ -1078,7 +1056,7 @@
     "subject_order": 17
   },
   {
-    "id": 99,
+    "id": 97,
     "quote": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you.",
     "speaker": "Jesus",
     "reference": "Matthew 7:7",
@@ -1089,7 +1067,7 @@
     "subject_order": 18
   },
   {
-    "id": 100,
+    "id": 98,
     "quote": "Ask, and it shall be given you; seek, and ye shall find.",
     "speaker": "Jesus",
     "reference": "Matthew 7:7",
@@ -1100,7 +1078,7 @@
     "subject_order": 19
   },
   {
-    "id": 101,
+    "id": 99,
     "quote": "Rejoicing in hope; patient in tribulation.",
     "speaker": "Paul",
     "reference": "Romans 12:12",
@@ -1111,7 +1089,7 @@
     "subject_order": 20
   },
   {
-    "id": 102,
+    "id": 100,
     "quote": "And we know that all things work together for good.",
     "speaker": "Paul",
     "reference": "Romans 8:28",
@@ -1122,7 +1100,7 @@
     "subject_order": 21
   },
   {
-    "id": 103,
+    "id": 101,
     "quote": "Rejoicing in hope; patient in tribulation; continuing instant in prayer.",
     "speaker": "Paul",
     "reference": "Romans 12:12",
@@ -1133,7 +1111,7 @@
     "subject_order": 22
   },
   {
-    "id": 104,
+    "id": 102,
     "quote": "And we know that all things work together for good to them that love God.",
     "speaker": "Paul",
     "reference": "Romans 8:28",
@@ -1144,7 +1122,7 @@
     "subject_order": 23
   },
   {
-    "id": 105,
+    "id": 103,
     "quote": "I will lift up mine eyes unto the hills, from whence cometh my help.",
     "speaker": "Unknown",
     "reference": "Psalm 121:1",
@@ -1155,7 +1133,7 @@
     "subject_order": 24
   },
   {
-    "id": 106,
+    "id": 104,
     "quote": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
     "speaker": "Jesus",
     "reference": "Matthew 5:3",
@@ -1166,7 +1144,7 @@
     "subject_order": 1
   },
   {
-    "id": 107,
+    "id": 105,
     "quote": "He that is greatest among you shall be your servant.",
     "speaker": "Jesus",
     "reference": "Matthew 23:11",
@@ -1177,7 +1155,7 @@
     "subject_order": 2
   },
   {
-    "id": 108,
+    "id": 106,
     "quote": "Take my yoke upon you, and learn of me; for I am meek and lowly in heart.",
     "speaker": "Jesus",
     "reference": "Matthew 11:29",
@@ -1188,7 +1166,7 @@
     "subject_order": 3
   },
   {
-    "id": 109,
+    "id": 107,
     "quote": "Pride goeth before destruction, and an haughty spirit before a fall.",
     "speaker": "Solomon",
     "reference": "Proverbs 16:18",
@@ -1199,7 +1177,7 @@
     "subject_order": 4
   },
   {
-    "id": 110,
+    "id": 108,
     "quote": "Before I formed thee… I knew thee.",
     "speaker": "Jeremiah",
     "reference": "Jeremiah 1:5",
@@ -1210,7 +1188,7 @@
     "subject_order": 1
   },
   {
-    "id": 111,
+    "id": 109,
     "quote": "Other sheep I have, which are not of this fold.",
     "speaker": "Jesus",
     "reference": "John 10:16",
@@ -1221,7 +1199,7 @@
     "subject_order": 1
   },
   {
-    "id": 112,
+    "id": 110,
     "quote": "Suffer little children, and forbid them not, to come unto me.",
     "speaker": "Jesus",
     "reference": "Matthew 19:14",
@@ -1232,7 +1210,7 @@
     "subject_order": 1
   },
   {
-    "id": 113,
+    "id": 111,
     "quote": "Let your yea be yea; and your nay, nay.",
     "speaker": "Jesus",
     "reference": "Matthew 5:37",
@@ -1243,7 +1221,7 @@
     "subject_order": 1
   },
   {
-    "id": 114,
+    "id": 112,
     "quote": "Blessed are the pure in heart: for they shall see God.",
     "speaker": "Jesus",
     "reference": "Matthew 5:8",
@@ -1254,8 +1232,8 @@
     "subject_order": 2
   },
   {
-    "id": 115,
-    "quote": "Serve the Lord with gladness.",
+    "id": 113,
+    "quote": "Serve the Lord with gladness: come before his presence with singing.",
     "speaker": "David",
     "reference": "Psalm 100:2",
     "subject": "Joy",
@@ -1265,7 +1243,7 @@
     "subject_order": 1
   },
   {
-    "id": 116,
+    "id": 114,
     "quote": "Make a joyful noise unto the Lord.",
     "speaker": "David",
     "reference": "Psalm 100:1",
@@ -1276,7 +1254,7 @@
     "subject_order": 2
   },
   {
-    "id": 117,
+    "id": 115,
     "quote": "Delight thyself also in the Lord.",
     "speaker": "David",
     "reference": "Psalm 37:4",
@@ -1287,7 +1265,7 @@
     "subject_order": 3
   },
   {
-    "id": 118,
+    "id": 116,
     "quote": "These things I have spoken unto you, that my joy might remain in you.",
     "speaker": "Jesus",
     "reference": "John 15:11",
@@ -1298,8 +1276,8 @@
     "subject_order": 4
   },
   {
-    "id": 119,
-    "quote": "Rejoice evermore.",
+    "id": 117,
+    "quote": "Rejoice evermore. Pray without ceasing. In every thing give thanks.",
     "speaker": "Paul",
     "reference": "1 Thessalonians 5:16",
     "subject": "Joy",
@@ -1309,7 +1287,7 @@
     "subject_order": 5
   },
   {
-    "id": 120,
+    "id": 118,
     "quote": "Rejoice in the Lord alway: and again I say, Rejoice.",
     "speaker": "Paul",
     "reference": "Philippians 4:4",
@@ -1320,7 +1298,7 @@
     "subject_order": 6
   },
   {
-    "id": 121,
+    "id": 119,
     "quote": "A merry heart doeth good like a medicine.",
     "speaker": "Solomon",
     "reference": "Proverbs 17:22",
@@ -1331,7 +1309,7 @@
     "subject_order": 7
   },
   {
-    "id": 122,
+    "id": 120,
     "quote": "Make a joyful noise unto the Lord, all ye lands.",
     "speaker": "Unknown",
     "reference": "Psalm 100:1",
@@ -1342,7 +1320,7 @@
     "subject_order": 8
   },
   {
-    "id": 123,
+    "id": 121,
     "quote": "Blessed are the merciful.",
     "speaker": "Jesus",
     "reference": "Matthew 5:7",
@@ -1353,7 +1331,7 @@
     "subject_order": 1
   },
   {
-    "id": 124,
+    "id": 122,
     "quote": "Be ye kind one to another, tenderhearted, forgiving one another.",
     "speaker": "Paul",
     "reference": "Ephesians 4:32",
@@ -1364,7 +1342,7 @@
     "subject_order": 2
   },
   {
-    "id": 125,
+    "id": 123,
     "quote": "Fear thou not; for I am with thee: be not dismayed.",
     "speaker": "Isaiah",
     "reference": "Isaiah 41:10",
@@ -1375,8 +1353,8 @@
     "subject_order": 1
   },
   {
-    "id": 126,
-    "quote": "I will not leave you comfortless: I will come to you.",
+    "id": 124,
+    "quote": "Rejoice in the Lord alway: and again I say, Rejoice.",
     "speaker": "Jesus",
     "reference": "John 14:18",
     "subject": "Loneliness",
@@ -1386,7 +1364,7 @@
     "subject_order": 2
   },
   {
-    "id": 127,
+    "id": 125,
     "quote": "How precious also are thy thoughts unto me, O God! how great is the sum of them!",
     "speaker": "David",
     "reference": "Psalm 139:17",
@@ -1397,7 +1375,7 @@
     "subject_order": 1
   },
   {
-    "id": 128,
+    "id": 126,
     "quote": "Greater love hath no man than this, that a man lay down his life for his friends.",
     "speaker": "Jesus",
     "reference": "John 15:13",
@@ -1408,7 +1386,7 @@
     "subject_order": 2
   },
   {
-    "id": 129,
+    "id": 127,
     "quote": "If ye love me, keep my commandments.",
     "speaker": "Jesus",
     "reference": "John 14:15",
@@ -1419,7 +1397,7 @@
     "subject_order": 3
   },
   {
-    "id": 130,
+    "id": 128,
     "quote": "God is love; and he that dwelleth in love dwelleth in God, and God in him.",
     "speaker": "John",
     "reference": "1 John 4:16",
@@ -1430,7 +1408,7 @@
     "subject_order": 4
   },
   {
-    "id": 131,
+    "id": 129,
     "quote": "Beloved, let us love one another: for love is of God.",
     "speaker": "John",
     "reference": "1 John 4:7",
@@ -1441,7 +1419,7 @@
     "subject_order": 5
   },
   {
-    "id": 132,
+    "id": 130,
     "quote": "Herein is love, not that we loved God, but that he loved us.",
     "speaker": "John",
     "reference": "1 John 4:10",
@@ -1452,7 +1430,7 @@
     "subject_order": 6
   },
   {
-    "id": 133,
+    "id": 131,
     "quote": "God is love; and he that dwelleth in love dwelleth in God.",
     "speaker": "John",
     "reference": "1 John 4:16",
@@ -1463,7 +1441,7 @@
     "subject_order": 7
   },
   {
-    "id": 134,
+    "id": 132,
     "quote": "Beloved, let us love one another.",
     "speaker": "John",
     "reference": "1 John 4:7",
@@ -1474,7 +1452,7 @@
     "subject_order": 8
   },
   {
-    "id": 135,
+    "id": 133,
     "quote": "There is no fear in love; but perfect love casteth out fear.",
     "speaker": "John",
     "reference": "1 John 4:18",
@@ -1485,7 +1463,7 @@
     "subject_order": 9
   },
   {
-    "id": 136,
+    "id": 134,
     "quote": "Let all your things be done with charity.",
     "speaker": "Paul",
     "reference": "1 Corinthians 16:14",
@@ -1496,7 +1474,7 @@
     "subject_order": 10
   },
   {
-    "id": 137,
+    "id": 135,
     "quote": "Charity suffereth long, and is kind.",
     "speaker": "Paul",
     "reference": "1 Corinthians 13:4",
@@ -1507,8 +1485,8 @@
     "subject_order": 11
   },
   {
-    "id": 138,
-    "quote": "Be kindly affectioned one to another with brotherly love.",
+    "id": 136,
+    "quote": "Be still, and know that I am God.",
     "speaker": "Paul",
     "reference": "Romans 12:10",
     "subject": "Love",
@@ -1518,7 +1496,7 @@
     "subject_order": 12
   },
   {
-    "id": 139,
+    "id": 137,
     "quote": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
     "speaker": "Paul",
     "reference": "1 Corinthians 13:13",
@@ -1529,7 +1507,7 @@
     "subject_order": 13
   },
   {
-    "id": 140,
+    "id": 138,
     "quote": "Charity never faileth.",
     "speaker": "Paul",
     "reference": "1 Corinthians 13:8",
@@ -1540,7 +1518,7 @@
     "subject_order": 14
   },
   {
-    "id": 141,
+    "id": 139,
     "quote": "Nothing shall be able to separate us from the love of God.",
     "speaker": "Paul",
     "reference": "Romans 8:38-39",
@@ -1551,8 +1529,8 @@
     "subject_order": 15
   },
   {
-    "id": 142,
-    "quote": "Let all things be done with charity.",
+    "id": 140,
+    "quote": "Blessed are the peacemakers: for they shall be called the children of God.",
     "speaker": "Paul",
     "reference": "1 Corinthians 16:14",
     "subject": "Love",
@@ -1562,8 +1540,8 @@
     "subject_order": 16
   },
   {
-    "id": 143,
-    "quote": "Walk in love.",
+    "id": 141,
+    "quote": "Blessed are the merciful: for they shall obtain mercy.",
     "speaker": "Paul",
     "reference": "Ephesians 5:2",
     "subject": "Love",
@@ -1573,7 +1551,7 @@
     "subject_order": 17
   },
   {
-    "id": 144,
+    "id": 142,
     "quote": "Let love be without dissimulation. Abhor that which is evil; cleave to that which is good.",
     "speaker": "Paul",
     "reference": "Romans 12:9",
@@ -1584,7 +1562,7 @@
     "subject_order": 18
   },
   {
-    "id": 145,
+    "id": 143,
     "quote": "Charity suffereth long, and is kind; charity envieth not.",
     "speaker": "Paul",
     "reference": "1 Corinthians 13:4",
@@ -1595,7 +1573,7 @@
     "subject_order": 19
   },
   {
-    "id": 146,
+    "id": 144,
     "quote": "For I am persuaded, that neither death, nor life, nor angels, nor principalities, shall be able to separate us from the love of God.",
     "speaker": "Paul",
     "reference": "Romans 8:38-39",
@@ -1606,7 +1584,7 @@
     "subject_order": 20
   },
   {
-    "id": 147,
+    "id": 145,
     "quote": "Because he hath set his love upon me, therefore will I deliver him.",
     "speaker": "Unknown",
     "reference": "Psalm 91:14",
@@ -1617,7 +1595,7 @@
     "subject_order": 21
   },
   {
-    "id": 148,
+    "id": 146,
     "quote": "Thy mercy, O Lord, endureth for ever.",
     "speaker": "David",
     "reference": "Psalm 138:8",
@@ -1628,7 +1606,7 @@
     "subject_order": 1
   },
   {
-    "id": 149,
+    "id": 147,
     "quote": "It is of the Lord’s mercies that we are not consumed.",
     "speaker": "Jeremiah",
     "reference": "Lamentations 3:22",
@@ -1639,7 +1617,7 @@
     "subject_order": 2
   },
   {
-    "id": 150,
+    "id": 148,
     "quote": "Blessed are the merciful: for they shall obtain mercy.",
     "speaker": "Jesus",
     "reference": "Matthew 5:7",
@@ -1650,8 +1628,8 @@
     "subject_order": 3
   },
   {
-    "id": 151,
-    "quote": "Whatsoever things are true… think on these things.",
+    "id": 149,
+    "quote": "Be not overcome of evil, but overcome evil with good.",
     "speaker": "Paul",
     "reference": "Philippians 4:8",
     "subject": "Mindset",
@@ -1661,7 +1639,7 @@
     "subject_order": 1
   },
   {
-    "id": 152,
+    "id": 150,
     "quote": "When my heart is overwhelmed: lead me to the rock that is higher than I.",
     "speaker": "David",
     "reference": "Psalm 61:2",
@@ -1672,7 +1650,7 @@
     "subject_order": 1
   },
   {
-    "id": 153,
+    "id": 151,
     "quote": "Rest in the Lord, and wait patiently for him.",
     "speaker": "David",
     "reference": "Psalm 37:7",
@@ -1683,7 +1661,7 @@
     "subject_order": 1
   },
   {
-    "id": 154,
+    "id": 152,
     "quote": "The Lord is good unto them that wait for him.",
     "speaker": "Jeremiah",
     "reference": "Lamentations 3:25",
@@ -1694,7 +1672,7 @@
     "subject_order": 2
   },
   {
-    "id": 155,
+    "id": 153,
     "quote": "The Lord will bless his people with peace.",
     "speaker": "David",
     "reference": "Psalm 29:11",
@@ -1705,7 +1683,7 @@
     "subject_order": 1
   },
   {
-    "id": 156,
+    "id": 154,
     "quote": "He maketh me to lie down in green pastures: he leadeth me beside the still waters.",
     "speaker": "David",
     "reference": "Psalm 23:2",
@@ -1716,7 +1694,7 @@
     "subject_order": 2
   },
   {
-    "id": 157,
+    "id": 155,
     "quote": "Thou wilt keep him in perfect peace.",
     "speaker": "Isaiah",
     "reference": "Isaiah 26:3",
@@ -1727,7 +1705,7 @@
     "subject_order": 3
   },
   {
-    "id": 158,
+    "id": 156,
     "quote": "In quietness and in confidence shall be your strength.",
     "speaker": "Isaiah",
     "reference": "Isaiah 30:15",
@@ -1738,7 +1716,7 @@
     "subject_order": 4
   },
   {
-    "id": 159,
+    "id": 157,
     "quote": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you.",
     "speaker": "Jesus",
     "reference": "John 14:27",
@@ -1749,7 +1727,7 @@
     "subject_order": 5
   },
   {
-    "id": 160,
+    "id": 158,
     "quote": "The kingdom of God is within you.",
     "speaker": "Jesus",
     "reference": "Luke 17:21",
@@ -1760,7 +1738,7 @@
     "subject_order": 6
   },
   {
-    "id": 161,
+    "id": 159,
     "quote": "Blessed are the peacemakers.",
     "speaker": "Jesus",
     "reference": "Matthew 5:9",
@@ -1771,7 +1749,7 @@
     "subject_order": 7
   },
   {
-    "id": 162,
+    "id": 160,
     "quote": "Peace be unto you.",
     "speaker": "Jesus",
     "reference": "John 20:19",
@@ -1782,7 +1760,7 @@
     "subject_order": 8
   },
   {
-    "id": 163,
+    "id": 161,
     "quote": "Peace I leave with you, my peace I give unto you: let not your heart be troubled.",
     "speaker": "Jesus",
     "reference": "John 14:27",
@@ -1793,7 +1771,7 @@
     "subject_order": 9
   },
   {
-    "id": 164,
+    "id": 162,
     "quote": "Blessed are the peacemakers: for they shall be called the children of God.",
     "speaker": "Jesus",
     "reference": "Matthew 5:9",
@@ -1804,8 +1782,8 @@
     "subject_order": 10
   },
   {
-    "id": 165,
-    "quote": "These things I have spoken unto you, that in me ye might have peace.",
+    "id": 163,
+    "quote": "Charity never faileth: but whether there be prophecies, they shall fail.",
     "speaker": "Jesus",
     "reference": "John 16:33",
     "subject": "Peace",
@@ -1815,7 +1793,7 @@
     "subject_order": 11
   },
   {
-    "id": 166,
+    "id": 164,
     "quote": "Peace I leave with you, my peace I give unto you.",
     "speaker": "Jesus",
     "reference": "John 14:27",
@@ -1826,7 +1804,7 @@
     "subject_order": 12
   },
   {
-    "id": 167,
+    "id": 165,
     "quote": "Consider the lilies of the field, how they grow; they toil not, neither do they spin.",
     "speaker": "Jesus",
     "reference": "Matthew 6:28",
@@ -1837,7 +1815,7 @@
     "subject_order": 13
   },
   {
-    "id": 168,
+    "id": 166,
     "quote": "Let your moderation be known unto all men.",
     "speaker": "Paul",
     "reference": "Philippians 4:5",
@@ -1848,7 +1826,7 @@
     "subject_order": 14
   },
   {
-    "id": 169,
+    "id": 167,
     "quote": "And the peace of God… shall keep your hearts.",
     "speaker": "Paul",
     "reference": "Philippians 4:7",
@@ -1859,7 +1837,7 @@
     "subject_order": 15
   },
   {
-    "id": 170,
+    "id": 168,
     "quote": "Let your moderation be known unto all men. The Lord is at hand.",
     "speaker": "Paul",
     "reference": "Philippians 4:5",
@@ -1870,7 +1848,7 @@
     "subject_order": 16
   },
   {
-    "id": 171,
+    "id": 169,
     "quote": "And the peace of God, which passeth all understanding, shall keep your hearts and minds.",
     "speaker": "Paul",
     "reference": "Philippians 4:7",
@@ -1881,7 +1859,7 @@
     "subject_order": 17
   },
   {
-    "id": 172,
+    "id": 170,
     "quote": "Be of good comfort, be of one mind.",
     "speaker": "Paul",
     "reference": "2 Corinthians 13:11",
@@ -1892,7 +1870,7 @@
     "subject_order": 18
   },
   {
-    "id": 173,
+    "id": 171,
     "quote": "Now the Lord of peace himself give you peace always.",
     "speaker": "Paul",
     "reference": "2 Thessalonians 3:16",
@@ -1903,7 +1881,7 @@
     "subject_order": 19
   },
   {
-    "id": 174,
+    "id": 172,
     "quote": "Be careful for nothing; but in every thing by prayer and supplication let your requests be made known unto God.",
     "speaker": "Paul",
     "reference": "Philippians 4:6",
@@ -1914,7 +1892,7 @@
     "subject_order": 20
   },
   {
-    "id": 175,
+    "id": 173,
     "quote": "A soft answer turneth away wrath: but grievous words stir up anger.",
     "speaker": "Solomon",
     "reference": "Proverbs 15:1",
@@ -1925,7 +1903,7 @@
     "subject_order": 21
   },
   {
-    "id": 176,
+    "id": 174,
     "quote": "Let us not be weary in well doing.",
     "speaker": "Paul",
     "reference": "Galatians 6:9",
@@ -1936,7 +1914,7 @@
     "subject_order": 1
   },
   {
-    "id": 177,
+    "id": 175,
     "quote": "Bless the Lord, O my soul: and all that is within me, bless his holy name.",
     "speaker": "David",
     "reference": "Psalm 103:1",
@@ -1947,7 +1925,7 @@
     "subject_order": 1
   },
   {
-    "id": 178,
+    "id": 176,
     "quote": "If I take the wings of the morning, and dwell in the uttermost parts of the sea, even there shall thy hand lead me.",
     "speaker": "David",
     "reference": "Psalm 139:9-10",
@@ -1958,7 +1936,7 @@
     "subject_order": 1
   },
   {
-    "id": 179,
+    "id": 177,
     "quote": "The Lord your God is with you wherever you go.",
     "speaker": "Joshua",
     "reference": "Joshua 1:9",
@@ -1969,7 +1947,7 @@
     "subject_order": 2
   },
   {
-    "id": 180,
+    "id": 178,
     "quote": "For where your treasure is, there will your heart be also.",
     "speaker": "Jesus",
     "reference": "Matthew 6:21",
@@ -1980,7 +1958,7 @@
     "subject_order": 1
   },
   {
-    "id": 181,
+    "id": 179,
     "quote": "Lay not up for yourselves treasures upon earth.",
     "speaker": "Jesus",
     "reference": "Matthew 6:19",
@@ -1991,7 +1969,7 @@
     "subject_order": 2
   },
   {
-    "id": 182,
+    "id": 180,
     "quote": "The Lord preserveth all them that love him.",
     "speaker": "David",
     "reference": "Psalm 145:20",
@@ -2002,7 +1980,7 @@
     "subject_order": 1
   },
   {
-    "id": 183,
+    "id": 181,
     "quote": "When thou passest through the waters, I will be with thee.",
     "speaker": "Isaiah",
     "reference": "Isaiah 43:2",
@@ -2013,7 +1991,7 @@
     "subject_order": 2
   },
   {
-    "id": 184,
+    "id": 182,
     "quote": "The Lord is good, a stronghold in the day of trouble.",
     "speaker": "Nahum",
     "reference": "Nahum 1:7",
@@ -2024,8 +2002,8 @@
     "subject_order": 3
   },
   {
-    "id": 185,
-    "quote": "The Lord knoweth how to deliver the godly.",
+    "id": 183,
+    "quote": "Give, and it shall be given unto you; good measure, pressed down.",
     "speaker": "Peter",
     "reference": "2 Peter 2:9",
     "subject": "Protection",
@@ -2035,7 +2013,7 @@
     "subject_order": 4
   },
   {
-    "id": 186,
+    "id": 184,
     "quote": "The Lord is my refuge and my fortress.",
     "speaker": "Psalmist",
     "reference": "Psalm 91:2",
@@ -2046,7 +2024,7 @@
     "subject_order": 5
   },
   {
-    "id": 187,
+    "id": 185,
     "quote": "He shall cover thee with his feathers.",
     "speaker": "Psalmist",
     "reference": "Psalm 91:4",
@@ -2057,7 +2035,7 @@
     "subject_order": 6
   },
   {
-    "id": 188,
+    "id": 186,
     "quote": "He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.",
     "speaker": "Unknown",
     "reference": "Psalm 91:1",
@@ -2068,7 +2046,7 @@
     "subject_order": 7
   },
   {
-    "id": 189,
+    "id": 187,
     "quote": "He shall give his angels charge over thee, to keep thee in all thy ways.",
     "speaker": "Unknown",
     "reference": "Psalm 91:11",
@@ -2079,7 +2057,7 @@
     "subject_order": 8
   },
   {
-    "id": 190,
+    "id": 188,
     "quote": "The Lord shall preserve thee from all evil: he shall preserve thy soul.",
     "speaker": "Unknown",
     "reference": "Psalm 121:7",
@@ -2090,7 +2068,7 @@
     "subject_order": 9
   },
   {
-    "id": 191,
+    "id": 189,
     "quote": "Thou preparest a table before me in the presence of mine enemies.",
     "speaker": "David",
     "reference": "Psalm 23:5",
@@ -2101,7 +2079,7 @@
     "subject_order": 1
   },
   {
-    "id": 192,
+    "id": 190,
     "quote": "No good thing will he withhold.",
     "speaker": "David",
     "reference": "Psalm 84:11",
@@ -2112,7 +2090,7 @@
     "subject_order": 2
   },
   {
-    "id": 193,
+    "id": 191,
     "quote": "Blessed are the pure in heart.",
     "speaker": "Jesus",
     "reference": "Matthew 5:8",
@@ -2123,7 +2101,7 @@
     "subject_order": 1
   },
   {
-    "id": 194,
+    "id": 192,
     "quote": "And ye shall know the truth, and the truth shall make you free.",
     "speaker": "Jesus",
     "reference": "John 8:32",
@@ -2134,7 +2112,7 @@
     "subject_order": 1
   },
   {
-    "id": 195,
+    "id": 193,
     "quote": "Let your light so shine before men.",
     "speaker": "Jesus",
     "reference": "Matthew 5:16",
@@ -2145,7 +2123,7 @@
     "subject_order": 2
   },
   {
-    "id": 196,
+    "id": 194,
     "quote": "Blessed are they which do hunger and thirst after righteousness.",
     "speaker": "Jesus",
     "reference": "Matthew 5:6",
@@ -2156,7 +2134,7 @@
     "subject_order": 3
   },
   {
-    "id": 197,
+    "id": 195,
     "quote": "Ye are the light of the world.",
     "speaker": "Jesus",
     "reference": "Matthew 5:14",
@@ -2167,7 +2145,7 @@
     "subject_order": 4
   },
   {
-    "id": 198,
+    "id": 196,
     "quote": "Let your light so shine before men, that they may see your good works.",
     "speaker": "Jesus",
     "reference": "Matthew 5:16",
@@ -2178,7 +2156,7 @@
     "subject_order": 5
   },
   {
-    "id": 199,
+    "id": 197,
     "quote": "Where there is no vision, the people perish.",
     "speaker": "Solomon",
     "reference": "Proverbs 29:18",
@@ -2189,7 +2167,7 @@
     "subject_order": 6
   },
   {
-    "id": 200,
+    "id": 198,
     "quote": "The Lord is my light and my salvation; whom shall I fear?",
     "speaker": "David",
     "reference": "Psalm 27:1",
@@ -2200,7 +2178,7 @@
     "subject_order": 1
   },
   {
-    "id": 201,
+    "id": 199,
     "quote": "The Lord shall fight for you.",
     "speaker": "Moses",
     "reference": "Exodus 14:14",
@@ -2211,7 +2189,7 @@
     "subject_order": 2
   },
   {
-    "id": 202,
+    "id": 200,
     "quote": "For my yoke is easy, and my burden is light.",
     "speaker": "Jesus",
     "reference": "Matthew 11:30",
@@ -2222,8 +2200,8 @@
     "subject_order": 1
   },
   {
-    "id": 203,
-    "quote": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.",
+    "id": 201,
+    "quote": "God is love; and he that dwelleth in love dwelleth in God.",
     "speaker": "David",
     "reference": "Psalm 23:3",
     "subject": "Renewal",
@@ -2233,8 +2211,8 @@
     "subject_order": 1
   },
   {
-    "id": 204,
-    "quote": "In the world ye shall have tribulation: but be of good cheer; I have overcome the world.",
+    "id": 202,
+    "quote": "The Lord is my shepherd; I shall not want.",
     "speaker": "Jesus",
     "reference": "John 16:33",
     "subject": "Resilience",
@@ -2244,7 +2222,7 @@
     "subject_order": 1
   },
   {
-    "id": 205,
+    "id": 203,
     "quote": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
     "speaker": "Jesus",
     "reference": "Matthew 11:28",
@@ -2255,7 +2233,7 @@
     "subject_order": 1
   },
   {
-    "id": 206,
+    "id": 204,
     "quote": "I am the bread of life: he that cometh to me shall never hunger.",
     "speaker": "Jesus",
     "reference": "John 6:35",
@@ -2266,7 +2244,7 @@
     "subject_order": 1
   },
   {
-    "id": 207,
+    "id": 205,
     "quote": "Whosoever drinketh of the water that I shall give him shall never thirst.",
     "speaker": "Jesus",
     "reference": "John 4:14",
@@ -2277,7 +2255,7 @@
     "subject_order": 2
   },
   {
-    "id": 208,
+    "id": 206,
     "quote": "The Lord is my shepherd; I shall not want.",
     "speaker": "David",
     "reference": "Psalm 23:1",
@@ -2288,7 +2266,7 @@
     "subject_order": 1
   },
   {
-    "id": 209,
+    "id": 207,
     "quote": "The Lord is my rock, and my fortress.",
     "speaker": "David",
     "reference": "Psalm 18:2",
@@ -2299,7 +2277,7 @@
     "subject_order": 2
   },
   {
-    "id": 210,
+    "id": 208,
     "quote": "For I am the Lord thy God, the Holy One of Israel, thy Saviour.",
     "speaker": "Isaiah",
     "reference": "Isaiah 43:3",
@@ -2310,7 +2288,7 @@
     "subject_order": 3
   },
   {
-    "id": 211,
+    "id": 209,
     "quote": "Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine.",
     "speaker": "Isaiah",
     "reference": "Isaiah 43:1",
@@ -2321,7 +2299,7 @@
     "subject_order": 4
   },
   {
-    "id": 212,
+    "id": 210,
     "quote": "The eternal God is thy refuge.",
     "speaker": "Moses",
     "reference": "Deuteronomy 33:27",
@@ -2332,7 +2310,7 @@
     "subject_order": 5
   },
   {
-    "id": 213,
+    "id": 211,
     "quote": "The Lord is faithful, who shall stablish you.",
     "speaker": "Paul",
     "reference": "2 Thessalonians 3:3",
@@ -2343,7 +2321,7 @@
     "subject_order": 6
   },
   {
-    "id": 214,
+    "id": 212,
     "quote": "Be still, and know that I am God.",
     "speaker": "Sons of Korah",
     "reference": "Psalm 46:10",
@@ -2354,7 +2332,7 @@
     "subject_order": 1
   },
   {
-    "id": 215,
+    "id": 213,
     "quote": "The Lord will give strength unto his people.",
     "speaker": "David",
     "reference": "Psalm 29:11",
@@ -2365,7 +2343,7 @@
     "subject_order": 1
   },
   {
-    "id": 216,
+    "id": 214,
     "quote": "The Lord is my strength and my shield.",
     "speaker": "David",
     "reference": "Psalm 28:7",
@@ -2376,7 +2354,7 @@
     "subject_order": 2
   },
   {
-    "id": 217,
+    "id": 215,
     "quote": "My flesh and my heart faileth: but God is the strength of my heart.",
     "speaker": "David",
     "reference": "Psalm 73:26",
@@ -2387,8 +2365,8 @@
     "subject_order": 3
   },
   {
-    "id": 218,
-    "quote": "The Lord is my strength and my shield; my heart trusted in him, and I am helped.",
+    "id": 216,
+    "quote": "Cast thy burden upon the Lord, and he shall sustain thee.",
     "speaker": "David",
     "reference": "Psalm 28:7",
     "subject": "Strength",
@@ -2398,7 +2376,7 @@
     "subject_order": 4
   },
   {
-    "id": 219,
+    "id": 217,
     "quote": "They that wait upon the Lord shall renew their strength.",
     "speaker": "Isaiah",
     "reference": "Isaiah 40:31",
@@ -2409,8 +2387,8 @@
     "subject_order": 5
   },
   {
-    "id": 220,
-    "quote": "I will strengthen thee; yea, I will help thee; yea, I will uphold thee.",
+    "id": 218,
+    "quote": "And we know that all things work together for good to them that love God.",
     "speaker": "Isaiah",
     "reference": "Isaiah 41:10",
     "subject": "Strength",
@@ -2420,7 +2398,7 @@
     "subject_order": 6
   },
   {
-    "id": 221,
+    "id": 219,
     "quote": "I will strengthen thee; yea, I will help thee.",
     "speaker": "Isaiah",
     "reference": "Isaiah 41:10",
@@ -2431,7 +2409,7 @@
     "subject_order": 7
   },
   {
-    "id": 222,
+    "id": 220,
     "quote": "Be strong and of a good courage.",
     "speaker": "Joshua",
     "reference": "Joshua 1:9",
@@ -2442,7 +2420,7 @@
     "subject_order": 8
   },
   {
-    "id": 223,
+    "id": 221,
     "quote": "The Lord is my strength and song.",
     "speaker": "Moses",
     "reference": "Exodus 15:2",
@@ -2453,7 +2431,7 @@
     "subject_order": 9
   },
   {
-    "id": 224,
+    "id": 222,
     "quote": "Be strong in the Lord.",
     "speaker": "Paul",
     "reference": "Ephesians 6:10",
@@ -2464,7 +2442,7 @@
     "subject_order": 10
   },
   {
-    "id": 225,
+    "id": 223,
     "quote": "I can do all things through Christ which strengtheneth me.",
     "speaker": "Paul",
     "reference": "Philippians 4:13",
@@ -2475,7 +2453,7 @@
     "subject_order": 11
   },
   {
-    "id": 226,
+    "id": 224,
     "quote": "Stand fast in the faith.",
     "speaker": "Paul",
     "reference": "1 Corinthians 16:13",
@@ -2486,7 +2464,7 @@
     "subject_order": 12
   },
   {
-    "id": 227,
+    "id": 225,
     "quote": "Cast thy burden upon the Lord, and he shall sustain thee.",
     "speaker": "David",
     "reference": "Psalm 55:22",
@@ -2497,7 +2475,7 @@
     "subject_order": 1
   },
   {
-    "id": 228,
+    "id": 226,
     "quote": "The Lord upholdeth all that fall.",
     "speaker": "David",
     "reference": "Psalm 145:14",
@@ -2508,7 +2486,7 @@
     "subject_order": 1
   },
   {
-    "id": 229,
+    "id": 227,
     "quote": "Bear ye one another's burdens.",
     "speaker": "Paul",
     "reference": "Galatians 6:2",
@@ -2519,7 +2497,7 @@
     "subject_order": 2
   },
   {
-    "id": 230,
+    "id": 228,
     "quote": "Commit thy way unto the Lord.",
     "speaker": "David",
     "reference": "Psalm 37:5",
@@ -2530,7 +2508,7 @@
     "subject_order": 1
   },
   {
-    "id": 231,
+    "id": 229,
     "quote": "The Lord is righteous in all his ways.",
     "speaker": "David",
     "reference": "Psalm 145:17",
@@ -2541,7 +2519,7 @@
     "subject_order": 2
   },
   {
-    "id": 232,
+    "id": 230,
     "quote": "I will trust, and not be afraid.",
     "speaker": "Isaiah",
     "reference": "Isaiah 12:2",
@@ -2552,7 +2530,7 @@
     "subject_order": 3
   },
   {
-    "id": 233,
+    "id": 231,
     "quote": "Faithful is he that calleth you.",
     "speaker": "Paul",
     "reference": "1 Thessalonians 5:24",
@@ -2563,7 +2541,7 @@
     "subject_order": 4
   },
   {
-    "id": 234,
+    "id": 232,
     "quote": "Humble yourselves under the mighty hand of God.",
     "speaker": "Peter",
     "reference": "1 Peter 5:6",
@@ -2574,7 +2552,7 @@
     "subject_order": 5
   },
   {
-    "id": 235,
+    "id": 233,
     "quote": "Trust in the Lord with all thine heart; and lean not unto thine own understanding.",
     "speaker": "Solomon",
     "reference": "Proverbs 3:5",
@@ -2585,7 +2563,7 @@
     "subject_order": 6
   },
   {
-    "id": 236,
+    "id": 234,
     "quote": "Trust in the Lord with all thine heart.",
     "speaker": "Solomon",
     "reference": "Proverbs 3:5",
@@ -2596,7 +2574,7 @@
     "subject_order": 7
   },
   {
-    "id": 237,
+    "id": 235,
     "quote": "A city that is set on an hill cannot be hid.",
     "speaker": "Jesus",
     "reference": "Matthew 5:14",
@@ -2607,7 +2585,7 @@
     "subject_order": 1
   },
   {
-    "id": 238,
+    "id": 236,
     "quote": "Wait on the Lord: be of good courage, and he shall strengthen thine heart.",
     "speaker": "David",
     "reference": "Psalm 27:14",
@@ -2618,7 +2596,7 @@
     "subject_order": 1
   },
   {
-    "id": 239,
+    "id": 237,
     "quote": "The fear of the Lord is the beginning of wisdom.",
     "speaker": "Solomon",
     "reference": "Proverbs 9:10",
@@ -2629,7 +2607,7 @@
     "subject_order": 1
   },
   {
-    "id": 240,
+    "id": 238,
     "quote": "He that handleth a matter wisely shall find good.",
     "speaker": "Solomon",
     "reference": "Proverbs 16:20",
