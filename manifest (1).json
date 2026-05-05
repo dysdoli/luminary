@@ -1,0 +1,20 @@
+{
+  "name": "Luminary",
+  "short_name": "Luminary",
+  "description": "Daily spiritual wisdom from Christian teachings. One meaningful offering, delivered once a day.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#141210",
+  "theme_color": "#141210",
+  "orientation": "portrait",
+  "lang": "en",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

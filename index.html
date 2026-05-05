@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#141210">
+<meta name="description" content="Daily spiritual wisdom. One meaningful offering from Christian teachings, delivered once a day.">
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./icon.png">
+<title>Luminary — One Light</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@300;400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Josefin+Sans:wght@100;200;300&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #141210;
+  --gold: #c8a45a;
+  --gold-dim: #c0955a;
+  --gold-light: #f0e0b0;
+  --parchment: #f4eedd;
+  --mist: #c8b89a;
+  --ink: #1a1410;
+  --accent: #c8a45a;
+  --icon-color: #c8a45a;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Crimson Text', serif;
+  overflow: hidden;
+  position: relative;
+  transition: background 0.8s ease;
+}
+
+/* Ambient glow */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse 70% 50% at 50% 30%, rgba(200,164,90,0.04) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+  transition: background 0.8s ease;
+}
+
+/* Stars */
+.stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.star {
+  position: absolute;
+  background: var(--gold-light);
+  border-radius: 50%;
+  animation: twinkle var(--d, 3s) ease-in-out infinite;
+  opacity: 0;
+}
+@keyframes twinkle {
+  0%, 100% { opacity: 0; }
+  50% { opacity: var(--op, 0.4); }
+}
+
+/* Candle icon - top right */
+.candle-icon {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  z-index: 10;
+  opacity: 0.6;
+  transition: opacity 0.8s ease;
+}
+.candle-icon svg {
+  width: 40px;
+  height: 40px;
+  fill: var(--icon-color);
+  transition: fill 0.8s ease;
+}
+
+/* Card */
+.card {
+  position: relative;
+  z-index: 1;
+  width: min(480px, 94vw);
+  padding: 48px 40px 40px;
+  text-align: center;
+}
+
+/* Screens */
+.screen { display: none; }
+.screen.active { display: block; animation: emerge 0.9s ease forwards; }
+@keyframes emerge {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Ornament line */
+.ornament {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 32px;
+  color: var(--accent);
+  font-size: 10px;
+  letter-spacing: 4px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  transition: color 0.8s ease;
+}
+.ornament::before, .ornament::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent));
+  opacity: 0.3;
+  transition: background 0.8s ease;
+}
+.ornament::after { background: linear-gradient(90deg, var(--accent), transparent); }
+
+/* Welcome screen */
+.app-name {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(28px, 7vw, 42px);
+  color: var(--gold-light);
+  letter-spacing: 6px;
+  font-weight: 300;
+  margin-bottom: 6px;
+}
+.app-tagline {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: clamp(11px, 2.5vw, 14px);
+  color: var(--accent);
+  letter-spacing: 8px;
+  font-weight: 200;
+  margin-bottom: 28px;
+  display: block;
+  text-transform: uppercase;
+  transition: color 0.8s ease;
+}
+.welcome-text {
+  font-size: clamp(16px, 4vw, 20px);
+  color: var(--gold-light);
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(200,164,90,0.25), transparent);
+  margin: 20px 0;
+}
+.welcome-subtitle {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: clamp(10px, 2.2vw, 12px);
+  color: var(--mist);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+/* Button */
+.btn {
+  margin-top: 36px;
+  padding: 14px 42px;
+  background: linear-gradient(135deg, rgba(200,164,90,0.15), rgba(200,164,90,0.08));
+  border: 1px solid rgba(200,164,90,0.3);
+  color: var(--gold-light);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+  font-weight: 300;
+}
+.btn:hover {
+  background: linear-gradient(135deg, rgba(200,164,90,0.25), rgba(200,164,90,0.15));
+  border-color: rgba(200,164,90,0.5);
+  transform: translateY(-2px);
+}
+
+/* Quote display */
+.quote-text {
+  font-size: clamp(18px, 4.5vw, 24px);
+  color: var(--gold-light);
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+.quote-attr {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: clamp(11px, 2.5vw, 13px);
+  color: var(--mist);
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+/* Countdown */
+.countdown {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 11px;
+  color: rgba(200,164,90,0.5);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 32px;
+  font-weight: 200;
+}
+
+/* Loading animation */
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.loading-text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
+  color: var(--mist);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* Privacy link */
+.privacy-link {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 10px;
+  color: rgba(200,164,90,0.3);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  z-index: 10;
+}
+.privacy-link:hover {
+  color: rgba(200,164,90,0.6);
+}
+</style>
+</head>
+<body>
+
+<!-- Stars -->
+<div class="stars" id="stars"></div>
+
+<!-- Candle icon -->
+<div class="candle-icon">
+  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 2C12 2 10 6 10 8C10 9.1 10.9 10 12 10C13.1 10 14 9.1 14 8C14 6 12 2 12 2Z" fill="currentColor" opacity="0.8"/>
+    <rect x="11" y="10" width="2" height="12" fill="currentColor" opacity="0.6"/>
+    <ellipse cx="12" cy="22" rx="4" ry="1" fill="currentColor" opacity="0.4"/>
+  </svg>
+</div>
+
+<!-- Privacy link -->
+<a href="luminary_privacy.html" class="privacy-link">Privacy</a>
+
+<div class="card">
+  <!-- Welcome Screen -->
+  <div id="welcome-screen" class="screen active">
+    <h1 class="app-name">Luminary</h1>
+    <span class="app-tagline">One Light</span>
+    <p class="welcome-text">Ancient wisdom. Daily light.</p>
+    <div class="divider"></div>
+    <p class="welcome-subtitle">One meaningful offering from Christian teachings, delivered once a day.</p>
+    <button class="btn" onclick="receiveToday()">Receive Today's Light</button>
+  </div>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="screen">
+    <div class="loading">
+      <div class="ornament"><span>One moment</span></div>
+      <div class="loading-text">Preparing your light...</div>
+    </div>
+  </div>
+
+  <!-- Quote Screen -->
+  <div id="quote-screen" class="screen">
+    <div class="ornament"><span id="quote-subject">Wisdom</span></div>
+    <p class="quote-text" id="quote-text"></p>
+    <p class="quote-attr" id="quote-attr"></p>
+  </div>
+
+  <!-- Locked Screen (already received today) -->
+  <div id="locked-screen" class="screen">
+    <div class="ornament"><span>Today's Light</span></div>
+    <p class="quote-text" id="locked-quote"></p>
+    <p class="quote-attr" id="locked-attr"></p>
+    <p class="countdown" id="countdown"></p>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+// LUMINARY APP - Quote System
+// ═══════════════════════════════════════════════════════════════
+
+let quotesDB = [];
+let userState = {
+  currentReligion: 'Christian',
+  usedQuotes: [],
+  subjectProgress: {}
+};
+
+// ── Load Quotes Database ──
+async function loadQuotes() {
+  try {
+    const response = await fetch('./quotes.json');
+    quotesDB = await response.json();
+    console.log(`✅ Loaded ${quotesDB.length} quotes`);
+  } catch (error) {
+    console.error('Failed to load quotes:', error);
+  }
+}
+
+// ── Storage Helpers ──
+function getTodayKey() { 
+  return 'luminary_' + new Date().toDateString(); 
+}
+
+function getSavedToday() { 
+  try { 
+    const saved = localStorage.getItem(getTodayKey()); 
+    return saved ? JSON.parse(saved) : null; 
+  } catch(e) { 
+    return null; 
+  } 
+}
+
+function saveToday(data) { 
+  try { 
+    localStorage.setItem(getTodayKey(), JSON.stringify(data)); 
+  } catch(e) {
+    console.error('Storage error:', e);
+  } 
+}
+
+function loadUserState() {
+  try {
+    const saved = localStorage.getItem('luminary_user_state');
+    if (saved) {
+      userState = JSON.parse(saved);
+    }
+  } catch(e) {
+    console.error('Failed to load user state:', e);
+  }
+}
+
+function saveUserState() {
+  try {
+    localStorage.setItem('luminary_user_state', JSON.stringify(userState));
+  } catch(e) {
+    console.error('Failed to save user state:', e);
+  }
+}
+
+// ── Countdown Timer ──
+function getCountdown() {
+  const now = new Date();
+  const midnight = new Date(now);
+  midnight.setDate(midnight.getDate() + 1);
+  midnight.setHours(0, 0, 0, 0);
+  const diff = midnight - now;
+  const h = Math.floor(diff / 3600000);
+  const m = Math.floor((diff % 3600000) / 60000);
+  return `Returns at midnight · ${h}h ${m}m`;
+}
+
+// ── Screen Navigation ──
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+
+// ── Pick Today's Quote ──
+function pickQuote() {
+  // Filter out already used quotes
+  const available = quotesDB.filter(q => !userState.usedQuotes.includes(q.id));
+  
+  // If we've used all quotes, reset
+  if (available.length === 0) {
+    userState.usedQuotes = [];
+    return quotesDB[Math.floor(Math.random() * quotesDB.length)];
+  }
+  
+  // Pick random from available
+  return available[Math.floor(Math.random() * available.length)];
+}
+
+// ── Receive Today's Quote ──
+function receiveToday() {
+  showScreen('loading-screen');
+  
+  setTimeout(() => {
+    const quote = pickQuote();
+    
+    // Mark as used
+    userState.usedQuotes.push(quote.id);
+    saveUserState();
+    
+    // Save for today
+    const todayData = {
+      quote: quote.quote,
+      speaker: quote.speaker,
+      reference: quote.reference,
+      subject: quote.subject
+    };
+    saveToday(todayData);
+    
+    // Display
+    displayQuote(todayData);
+  }, 2000);
+}
+
+// ── Display Quote ──
+function displayQuote(data) {
+  document.getElementById('quote-subject').textContent = data.subject;
+  document.getElementById('quote-text').textContent = `"${data.quote}"`;
+  document.getElementById('quote-attr').textContent = `— ${data.speaker}, ${data.reference}`;
+  showScreen('quote-screen');
+}
+
+// ── Display Locked (Already Received) ──
+function showLocked(saved) {
+  document.getElementById('locked-quote').textContent = `"${saved.quote}"`;
+  document.getElementById('locked-attr').textContent = `— ${saved.speaker}, ${saved.reference}`;
+  document.getElementById('countdown').textContent = getCountdown();
+  showScreen('locked-screen');
+  
+  // Update countdown every minute
+  setInterval(() => {
+    document.getElementById('countdown').textContent = getCountdown();
+  }, 60000);
+}
+
+// ── Initialize Stars ──
+function initStars() {
+  const starsEl = document.getElementById('stars');
+  for (let i = 0; i < 70; i++) {
+    const s = document.createElement('div');
+    s.className = 'star';
+    const size = Math.random() > 0.8 ? 2 : 1;
+    s.style.cssText = `left:${Math.random()*100}%;top:${Math.random()*100}%;width:${size}px;height:${size}px;--d:${2+Math.random()*5}s;--op:${0.2+Math.random()*0.5};animation-delay:${Math.random()*6}s`;
+    starsEl.appendChild(s);
+  }
+}
+
+// ── Init App ──
+window.addEventListener('DOMContentLoaded', async () => {
+  initStars();
+  await loadQuotes();
+  loadUserState();
+  
+  // Check if already received today
+  const saved = getSavedToday();
+  if (saved) {
+    showLocked(saved);
+  }
+});
+</script>
+</body>
+</html>
