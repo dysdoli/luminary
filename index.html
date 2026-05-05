@@ -323,16 +323,9 @@ body::before {
     <div class="ornament"><span id="quote-subject">Wisdom</span></div>
     <p class="quote-text" id="quote-text"></p>
     <p class="quote-attr" id="quote-attr"></p>
-    <button class="btn" onclick="tryAgain()" style="margin-top: 40px;">Ask Again</button>
-  </div>
-
-  <!-- Reflect Screen (when trying to ask again) -->
-  <div id="reflect-screen" class="screen">
-    <div class="ornament"><span>Sit With This</span></div>
-    <p class="quote-text">"There is wisdom in what you have already received."</p>
-    <div class="divider"></div>
-    <p class="welcome-subtitle">Today's light has been given. Return at midnight for tomorrow's offering.</p>
-    <p class="countdown" id="reflect-countdown"></p>
+    <div class="divider" style="margin-top: 40px;"></div>
+    <p class="welcome-subtitle" style="margin-top: 20px;">Today's light has been given. There is wisdom in what you have received. The next offering comes at midnight.</p>
+    <p class="countdown" id="quote-countdown"></p>
   </div>
 
   <!-- Locked Screen (already received today) -->
@@ -509,23 +502,18 @@ function receiveToday() {
   }, 2400);
 }
 
-// ── Try to Ask Again ──
-function tryAgain() {
-  document.getElementById('reflect-countdown').textContent = getCountdown();
-  showScreen('reflect-screen');
-  
-  // Update countdown every minute
-  setInterval(() => {
-    document.getElementById('reflect-countdown').textContent = getCountdown();
-  }, 60000);
-}
-
 // ── Display Quote ──
 function displayQuote(data) {
   document.getElementById('quote-subject').textContent = data.subject;
   document.getElementById('quote-text').textContent = `"${data.quote}"`;
   document.getElementById('quote-attr').textContent = `— ${data.speaker}, ${data.reference}`;
+  document.getElementById('quote-countdown').textContent = getCountdown();
   showScreen('quote-screen');
+  
+  // Update countdown every minute
+  setInterval(() => {
+    document.getElementById('quote-countdown').textContent = getCountdown();
+  }, 60000);
 }
 
 // ── Display Locked (Already Received) ──
