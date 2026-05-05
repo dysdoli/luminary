@@ -188,6 +188,31 @@ body::before {
   transform: translateY(-2px);
 }
 
+/* Input field */
+.input-field {
+  width: 100%;
+  margin-top: 24px;
+  padding: 16px 20px;
+  background: rgba(20,18,16,0.6);
+  border: 1px solid rgba(200,164,90,0.2);
+  border-radius: 2px;
+  color: var(--gold-light);
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.input-field:focus {
+  outline: none;
+  border-color: rgba(200,164,90,0.5);
+  background: rgba(20,18,16,0.8);
+}
+.input-field::placeholder {
+  color: rgba(200,164,90,0.4);
+  font-style: italic;
+}
+
 /* Quote display */
 .quote-text {
   font-size: clamp(18px, 4.5vw, 24px);
@@ -280,7 +305,8 @@ body::before {
     <span class="app-tagline">One Light</span>
     <p class="welcome-text">Ancient wisdom. Daily light.</p>
     <div class="divider"></div>
-    <p class="welcome-subtitle">One meaningful offering from Christian teachings, delivered once a day.</p>
+    <p class="welcome-subtitle">What's on your heart today?</p>
+    <input type="text" id="user-input" class="input-field" placeholder="I'm feeling anxious... I need hope... I lost someone..." onkeypress="if(event.key==='Enter') receiveToday()">
     <button class="btn" onclick="receiveToday()">Receive Today's Light</button>
   </div>
 
@@ -288,7 +314,7 @@ body::before {
   <div id="loading-screen" class="screen">
     <div class="loading">
       <div class="ornament"><span>One moment</span></div>
-      <div class="loading-text">Preparing your light...</div>
+      <div class="loading-text">Reflecting on your words...</div>
     </div>
   </div>
 
@@ -297,6 +323,16 @@ body::before {
     <div class="ornament"><span id="quote-subject">Wisdom</span></div>
     <p class="quote-text" id="quote-text"></p>
     <p class="quote-attr" id="quote-attr"></p>
+    <button class="btn" onclick="tryAgain()" style="margin-top: 40px;">Ask Again</button>
+  </div>
+
+  <!-- Reflect Screen (when trying to ask again) -->
+  <div id="reflect-screen" class="screen">
+    <div class="ornament"><span>Sit With This</span></div>
+    <p class="quote-text">"There is wisdom in what you have already received."</p>
+    <div class="divider"></div>
+    <p class="welcome-subtitle">Today's light has been given. Return at midnight for tomorrow's offering.</p>
+    <p class="countdown" id="reflect-countdown"></p>
   </div>
 
   <!-- Locked Screen (already received today) -->
@@ -390,27 +426,70 @@ function showScreen(id) {
   document.getElementById(id).classList.add('active');
 }
 
+// ── Subject Detection ──
+function detectSubject(text) {
+  if (!text) return null;
+  
+  const lower = text.toLowerCase();
+  
+  // Subject keyword mapping
+  const subjectMap = {
+    'Anxiety': ['anxious', 'anxiety', 'worried', 'worry', 'nervous', 'panic', 'stress', 'overwhelm'],
+    'Grief': ['grief', 'loss', 'lost', 'died', 'death', 'mourn', 'gone', 'passing', 'miss'],
+    'Hope': ['hope', 'hopeless', 'future', 'better', 'okay', 'improve', 'despair'],
+    'Love': ['love', 'relationship', 'partner', 'lonely', 'alone', 'heart', 'compassion'],
+    'Peace': ['peace', 'calm', 'quiet', 'rest', 'stillness', 'tranquil'],
+    'Strength': ['strength', 'strong', 'weak', 'tired', 'exhausted', 'endure'],
+    'Fear': ['fear', 'scared', 'afraid', 'frighten', 'terror'],
+    'Joy': ['joy', 'happy', 'happiness', 'celebrate', 'grateful', 'thankful'],
+    'Direction': ['lost', 'direction', 'path', 'way', 'choose', 'decision', 'purpose'],
+    'Trust': ['trust', 'faith', 'believe', 'doubt'],
+    'Comfort': ['comfort', 'hurt', 'pain', 'suffering', 'ache'],
+    'Forgiveness': ['forgive', 'forgiveness', 'guilt', 'shame', 'regret']
+  };
+  
+  // Check each subject for keyword matches
+  for (const [subject, keywords] of Object.entries(subjectMap)) {
+    if (keywords.some(keyword => lower.includes(keyword))) {
+      return subject;
+    }
+  }
+  
+  return null;
+}
+
 // ── Pick Today's Quote ──
-function pickQuote() {
+function pickQuote(preferredSubject = null) {
   // Filter out already used quotes
-  const available = quotesDB.filter(q => !userState.usedQuotes.includes(q.id));
+  let available = quotesDB.filter(q => !userState.usedQuotes.includes(q.id));
   
   // If we've used all quotes, reset
   if (available.length === 0) {
     userState.usedQuotes = [];
-    return quotesDB[Math.floor(Math.random() * quotesDB.length)];
+    available = quotesDB;
   }
   
-  // Pick random from available
+  // If we have a preferred subject, try to match it
+  if (preferredSubject) {
+    const subjectMatches = available.filter(q => q.subject === preferredSubject);
+    if (subjectMatches.length > 0) {
+      return subjectMatches[Math.floor(Math.random() * subjectMatches.length)];
+    }
+  }
+  
+  // Otherwise, pick random from available
   return available[Math.floor(Math.random() * available.length)];
 }
 
 // ── Receive Today's Quote ──
 function receiveToday() {
+  const userInput = document.getElementById('user-input').value;
+  const detectedSubject = detectSubject(userInput);
+  
   showScreen('loading-screen');
   
   setTimeout(() => {
-    const quote = pickQuote();
+    const quote = pickQuote(detectedSubject);
     
     // Mark as used
     userState.usedQuotes.push(quote.id);
@@ -427,7 +506,18 @@ function receiveToday() {
     
     // Display
     displayQuote(todayData);
-  }, 2000);
+  }, 2400);
+}
+
+// ── Try to Ask Again ──
+function tryAgain() {
+  document.getElementById('reflect-countdown').textContent = getCountdown();
+  showScreen('reflect-screen');
+  
+  // Update countdown every minute
+  setInterval(() => {
+    document.getElementById('reflect-countdown').textContent = getCountdown();
+  }, 60000);
 }
 
 // ── Display Quote ──
