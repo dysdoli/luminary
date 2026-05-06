@@ -99,6 +99,72 @@ body::before {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* Intro Screen */
+#intro-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity 0.8s ease;
+}
+#intro-screen.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Intro candle - larger, centered */
+.intro-candle {
+  opacity: 0;
+  animation: candleFadeIn 2s ease forwards;
+  animation-delay: 0.5s;
+  margin-bottom: 40px;
+}
+.intro-candle img {
+  width: 180px;
+  height: 180px;
+  display: block;
+  filter: drop-shadow(0 0 30px rgba(200,164,90,0.4));
+}
+
+@keyframes candleFadeIn {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Intro text */
+.intro-text {
+  opacity: 0;
+  animation: textFadeIn 1s ease forwards;
+  animation-delay: 2.5s;
+  text-align: center;
+}
+.intro-title {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(32px, 8vw, 48px);
+  color: var(--gold-light);
+  letter-spacing: 8px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+.intro-tagline {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: clamp(11px, 2.5vw, 14px);
+  color: var(--accent);
+  letter-spacing: 6px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+@keyframes textFadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
 /* Ornament line */
 .ornament {
   display: flex;
@@ -282,6 +348,17 @@ body::before {
 </style>
 </head>
 <body>
+
+<!-- Intro Screen -->
+<div id="intro-screen">
+  <div class="intro-candle">
+    <img src="candleIcon.png" alt="Luminary" />
+  </div>
+  <div class="intro-text">
+    <div class="intro-title">Luminary</div>
+    <div class="intro-tagline">One Light</div>
+  </div>
+</div>
 
 <!-- Stars -->
 <div class="stars" id="stars"></div>
@@ -547,11 +624,24 @@ window.addEventListener('DOMContentLoaded', async () => {
   await loadQuotes();
   loadUserState();
   
-  // Check if already received today
-  const saved = getSavedToday();
-  if (saved) {
-    showLocked(saved);
-  }
+  // Show intro sequence (4.5 seconds total)
+  const introScreen = document.getElementById('intro-screen');
+  
+  setTimeout(() => {
+    // Fade out intro
+    introScreen.classList.add('fade-out');
+    
+    // After fade completes, remove it and show main app
+    setTimeout(() => {
+      introScreen.style.display = 'none';
+      
+      // Check if already received today
+      const saved = getSavedToday();
+      if (saved) {
+        showLocked(saved);
+      }
+    }, 800); // Match the fade-out transition time
+  }, 4500); // Hold intro for 4.5 seconds
 });
 </script>
 </body>
