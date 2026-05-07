@@ -618,6 +618,41 @@ function initStars() {
   }
 }
 
+// ── Gentle Chime Sound ──
+function playIntroChime() {
+  try {
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    const now = audioContext.currentTime;
+    
+    // Create gentle chime - three soft bell tones
+    const frequencies = [800, 1000, 1200]; // Soft, high bell tones
+    
+    frequencies.forEach((freq, i) => {
+      const oscillator = audioContext.createOscillator();
+      const gainNode = audioContext.createGain();
+      
+      oscillator.connect(gainNode);
+      gainNode.connect(audioContext.destination);
+      
+      // Sine wave for soft, pure tone
+      oscillator.type = 'sine';
+      oscillator.frequency.setValueAtTime(freq, now);
+      
+      // Very gentle volume fade in and out
+      const startTime = now + (i * 0.3); // Stagger the chimes
+      gainNode.gain.setValueAtTime(0, startTime);
+      gainNode.gain.linearRampToValueAtTime(0.08, startTime + 0.3); // Fade in
+      gainNode.gain.linearRampToValueAtTime(0, startTime + 2); // Fade out
+      
+      oscillator.start(startTime);
+      oscillator.stop(startTime + 2);
+    });
+  } catch (e) {
+    // Silently fail if Web Audio not supported
+    console.log('Audio not supported');
+  }
+}
+
 // ── Init App ──
 window.addEventListener('DOMContentLoaded', async () => {
   initStars();
@@ -626,6 +661,11 @@ window.addEventListener('DOMContentLoaded', async () => {
   
   // Show intro sequence (4.5 seconds total)
   const introScreen = document.getElementById('intro-screen');
+  
+  // Play gentle chime as intro begins
+  setTimeout(() => {
+    playIntroChime();
+  }, 500); // Start chime as candle fades in
   
   setTimeout(() => {
     // Fade out intro
