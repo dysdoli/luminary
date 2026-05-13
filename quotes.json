@@ -88,17 +88,6 @@
     "subject_order": 1
   },
   {
-    "id": 9,
-    "quote": "Follow me, and I will make you fishers of men.",
-    "speaker": "Jesus",
-    "reference": "John 21:19",
-    "subject": "Calling",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 2
-  },
-  {
     "id": 10,
     "quote": "I am the good shepherd: the good shepherd giveth his life for the sheep.",
     "speaker": "Jesus",
@@ -286,17 +275,6 @@
     "subject_order": 1
   },
   {
-    "id": 27,
-    "quote": "The Lord is nigh unto all them that call upon him.",
-    "speaker": "David",
-    "reference": "Psalm 145:18",
-    "subject": "Connection",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 1
-  },
-  {
     "id": 28,
     "quote": "The Lord is near unto all them that call upon him.",
     "speaker": "David",
@@ -305,7 +283,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 2
+    "subject_order": 1
   },
   {
     "id": 29,
@@ -316,7 +294,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 3
+    "subject_order": 2
   },
   {
     "id": 30,
@@ -327,7 +305,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 4
+    "subject_order": 3
   },
   {
     "id": 31,
@@ -338,7 +316,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 5
+    "subject_order": 4
   },
   {
     "id": 32,
@@ -374,17 +352,6 @@
     "subject_order": 3
   },
   {
-    "id": 35,
-    "quote": "For God hath not given us the spirit of fear; but of power.",
-    "speaker": "Paul",
-    "reference": "2 Timothy 1:7",
-    "subject": "Courage",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 4
-  },
-  {
     "id": 36,
     "quote": "The steps of a good man are ordered by the Lord.",
     "speaker": "David",
@@ -393,7 +360,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 2
+    "subject_order": 1
   },
   {
     "id": 37,
@@ -404,7 +371,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 3
+    "subject_order": 2
   },
   {
     "id": 38,
@@ -415,7 +382,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 4
+    "subject_order": 3
   },
   {
     "id": 39,
@@ -426,7 +393,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 5
+    "subject_order": 4
   },
   {
     "id": 40,
@@ -528,17 +495,6 @@
     "subject_order": 5
   },
   {
-    "id": 49,
-    "quote": "I sought the Lord, and he heard me.",
-    "speaker": "David",
-    "reference": "Psalm 34:4",
-    "subject": "Fear",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 1
-  },
-  {
     "id": 50,
     "quote": "I sought the Lord, and he heard me, and delivered me from all my fears.",
     "speaker": "David",
@@ -547,7 +503,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 2
+    "subject_order": 1
   },
   {
     "id": 51,
@@ -558,18 +514,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 3
-  },
-  {
-    "id": 52,
-    "quote": "Be of good cheer; be not afraid.",
-    "speaker": "Jesus",
-    "reference": "Matthew 14:27",
-    "subject": "Fear",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 4
+    "subject_order": 2
   },
   {
     "id": 53,
@@ -580,7 +525,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 5
+    "subject_order": 3
   },
   {
     "id": 54,
@@ -627,17 +572,6 @@
     "subject_order": 3
   },
   {
-    "id": 58,
-    "quote": "If we confess our sins, he is faithful and just to forgive us.",
-    "speaker": "John",
-    "reference": "1 John 1:9",
-    "subject": "Forgiveness",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 4
-  },
-  {
     "id": 59,
     "quote": "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you.",
     "speaker": "Paul",
@@ -646,7 +580,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 5
+    "subject_order": 4
   },
   {
     "id": 60,
@@ -734,7 +668,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 4
+    "subject_order": 3
   },
   {
     "id": 68,
@@ -790,17 +724,6 @@
     "religion_order": 5,
     "path": "Evangelical",
     "subject_order": 5
-  },
-  {
-    "id": 73,
-    "quote": "Blessed are they that mourn: for they shall be comforted.",
-    "speaker": "Jesus",
-    "reference": "Matthew 5:4",
-    "subject": "Grief",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 6
   },
   {
     "id": 74,
@@ -869,17 +792,6 @@
     "subject_order": 3
   },
   {
-    "id": 80,
-    "quote": "Surely goodness and mercy shall follow me.",
-    "speaker": "David",
-    "reference": "Psalm 23:6",
-    "subject": "Hope",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 1
-  },
-  {
     "id": 81,
     "quote": "Weeping may endure for a night, but joy cometh in the morning.",
     "speaker": "David",
@@ -888,7 +800,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 2
+    "subject_order": 1
   },
   {
     "id": 82,
@@ -899,7 +811,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 3
+    "subject_order": 2
   },
   {
     "id": 83,
@@ -910,7 +822,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 5
+    "subject_order": 3
   },
   {
     "id": 84,
@@ -921,7 +833,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 6
+    "subject_order": 4
   },
   {
     "id": 85,
@@ -932,7 +844,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 8
+    "subject_order": 5
   },
   {
     "id": 86,
@@ -943,7 +855,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 9
+    "subject_order": 6
   },
   {
     "id": 87,
@@ -954,7 +866,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 10
+    "subject_order": 7
   },
   {
     "id": 88,
@@ -965,7 +877,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 11
+    "subject_order": 8
   },
   {
     "id": 89,
@@ -976,7 +888,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 13
+    "subject_order": 9
   },
   {
     "id": 90,
@@ -987,18 +899,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 14
-  },
-  {
-    "id": 91,
-    "quote": "Because I live, ye shall live also.",
-    "speaker": "Jesus",
-    "reference": "John 14:19",
-    "subject": "Hope",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 15
+    "subject_order": 10
   },
   {
     "id": 92,
@@ -1009,7 +910,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 16
+    "subject_order": 11
   },
   {
     "id": 93,
@@ -1020,7 +921,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 17
+    "subject_order": 12
   },
   {
     "id": 94,
@@ -1031,40 +932,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 18
-  },
-  {
-    "id": 95,
-    "quote": "Ask, and it shall be given you; seek, and ye shall find.",
-    "speaker": "Jesus",
-    "reference": "Matthew 7:7",
-    "subject": "Hope",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 19
-  },
-  {
-    "id": 96,
-    "quote": "Rejoicing in hope; patient in tribulation.",
-    "speaker": "Paul",
-    "reference": "Romans 12:12",
-    "subject": "Hope",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 20
-  },
-  {
-    "id": 97,
-    "quote": "And we know that all things work together for good.",
-    "speaker": "Paul",
-    "reference": "Romans 8:28",
-    "subject": "Hope",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 21
+    "subject_order": 13
   },
   {
     "id": 98,
@@ -1075,7 +943,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 22
+    "subject_order": 14
   },
   {
     "id": 99,
@@ -1086,7 +954,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 23
+    "subject_order": 15
   },
   {
     "id": 100,
@@ -1097,7 +965,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 24
+    "subject_order": 16
   },
   {
     "id": 101,
@@ -1119,7 +987,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 3
+    "subject_order": 2
   },
   {
     "id": 103,
@@ -1130,7 +998,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 4
+    "subject_order": 3
   },
   {
     "id": 104,
@@ -1196,7 +1064,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 3
+    "subject_order": 1
   },
   {
     "id": 110,
@@ -1207,18 +1075,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 4
-  },
-  {
-    "id": 111,
-    "quote": "Rejoice evermore. Pray without ceasing. In every thing give thanks.",
-    "speaker": "Paul",
-    "reference": "1 Thessalonians 5:16",
-    "subject": "Joy",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 5
+    "subject_order": 2
   },
   {
     "id": 112,
@@ -1229,7 +1086,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 6
+    "subject_order": 3
   },
   {
     "id": 113,
@@ -1240,7 +1097,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 7
+    "subject_order": 4
   },
   {
     "id": 114,
@@ -1276,17 +1133,6 @@
     "subject_order": 1
   },
   {
-    "id": 117,
-    "quote": "Rejoice in the Lord alway: and again I say, Rejoice.",
-    "speaker": "Jesus",
-    "reference": "John 14:18",
-    "subject": "Loneliness",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 2
-  },
-  {
     "id": 118,
     "quote": "Greater love hath no man than this, that a man lay down his life for his friends.",
     "speaker": "Jesus",
@@ -1295,7 +1141,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 2
+    "subject_order": 1
   },
   {
     "id": 119,
@@ -1306,7 +1152,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 3
+    "subject_order": 2
   },
   {
     "id": 120,
@@ -1317,7 +1163,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 4
+    "subject_order": 3
   },
   {
     "id": 121,
@@ -1328,7 +1174,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 5
+    "subject_order": 4
   },
   {
     "id": 122,
@@ -1339,29 +1185,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 6
-  },
-  {
-    "id": 123,
-    "quote": "God is love; and he that dwelleth in love dwelleth in God.",
-    "speaker": "John",
-    "reference": "1 John 4:16",
-    "subject": "Love",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 7
-  },
-  {
-    "id": 124,
-    "quote": "Beloved, let us love one another.",
-    "speaker": "John",
-    "reference": "1 John 4:7",
-    "subject": "Love",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 8
+    "subject_order": 5
   },
   {
     "id": 125,
@@ -1372,7 +1196,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 9
+    "subject_order": 6
   },
   {
     "id": 126,
@@ -1383,7 +1207,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 10
+    "subject_order": 7
   },
   {
     "id": 127,
@@ -1394,18 +1218,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 11
-  },
-  {
-    "id": 128,
-    "quote": "Be still, and know that I am God.",
-    "speaker": "Paul",
-    "reference": "Romans 12:10",
-    "subject": "Love",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 12
+    "subject_order": 8
   },
   {
     "id": 129,
@@ -1416,7 +1229,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 13
+    "subject_order": 9
   },
   {
     "id": 130,
@@ -1427,7 +1240,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 14
+    "subject_order": 10
   },
   {
     "id": 131,
@@ -1438,29 +1251,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 15
-  },
-  {
-    "id": 132,
-    "quote": "Blessed are the peacemakers: for they shall be called the children of God.",
-    "speaker": "Paul",
-    "reference": "1 Corinthians 16:14",
-    "subject": "Love",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 16
-  },
-  {
-    "id": 133,
-    "quote": "Blessed are the merciful: for they shall obtain mercy.",
-    "speaker": "Paul",
-    "reference": "Ephesians 5:2",
-    "subject": "Love",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 17
+    "subject_order": 11
   },
   {
     "id": 134,
@@ -1471,7 +1262,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 18
+    "subject_order": 12
   },
   {
     "id": 135,
@@ -1482,7 +1273,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 19
+    "subject_order": 13
   },
   {
     "id": 136,
@@ -1493,7 +1284,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 20
+    "subject_order": 14
   },
   {
     "id": 137,
@@ -1504,7 +1295,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 21
+    "subject_order": 15
   },
   {
     "id": 138,
@@ -1519,7 +1310,7 @@
   },
   {
     "id": 139,
-    "quote": "It is of the Lord’s mercies that we are not consumed.",
+    "quote": "It is of the Lord's mercies that we are not consumed.",
     "speaker": "Jeremiah",
     "reference": "Lamentations 3:22",
     "subject": "Mercy",
@@ -1694,17 +1485,6 @@
     "subject_order": 10
   },
   {
-    "id": 155,
-    "quote": "Charity never faileth: but whether there be prophecies, they shall fail.",
-    "speaker": "Jesus",
-    "reference": "John 16:33",
-    "subject": "Peace",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 11
-  },
-  {
     "id": 156,
     "quote": "Peace I leave with you, my peace I give unto you.",
     "speaker": "Jesus",
@@ -1713,7 +1493,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 12
+    "subject_order": 11
   },
   {
     "id": 157,
@@ -1724,7 +1504,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 13
+    "subject_order": 12
   },
   {
     "id": 158,
@@ -1735,7 +1515,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 14
+    "subject_order": 13
   },
   {
     "id": 159,
@@ -1746,7 +1526,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 15
+    "subject_order": 14
   },
   {
     "id": 160,
@@ -1757,7 +1537,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 16
+    "subject_order": 15
   },
   {
     "id": 161,
@@ -1768,7 +1548,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 17
+    "subject_order": 16
   },
   {
     "id": 162,
@@ -1779,7 +1559,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 18
+    "subject_order": 17
   },
   {
     "id": 163,
@@ -1790,7 +1570,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 19
+    "subject_order": 18
   },
   {
     "id": 164,
@@ -1801,7 +1581,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 20
+    "subject_order": 19
   },
   {
     "id": 165,
@@ -1812,7 +1592,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 21
+    "subject_order": 20
   },
   {
     "id": 166,
@@ -1903,17 +1683,6 @@
     "subject_order": 3
   },
   {
-    "id": 174,
-    "quote": "Give, and it shall be given unto you; good measure, pressed down.",
-    "speaker": "Peter",
-    "reference": "2 Peter 2:9",
-    "subject": "Protection",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 4
-  },
-  {
     "id": 175,
     "quote": "The Lord is my refuge and my fortress.",
     "speaker": "Psalmist",
@@ -1922,7 +1691,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 5
+    "subject_order": 4
   },
   {
     "id": 176,
@@ -1933,7 +1702,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 6
+    "subject_order": 5
   },
   {
     "id": 177,
@@ -1944,7 +1713,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 7
+    "subject_order": 6
   },
   {
     "id": 178,
@@ -1955,7 +1724,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 8
+    "subject_order": 7
   },
   {
     "id": 179,
@@ -1966,7 +1735,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 9
+    "subject_order": 8
   },
   {
     "id": 180,
@@ -2095,28 +1864,6 @@
     "speaker": "Jesus",
     "reference": "Matthew 11:30",
     "subject": "Relief",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 1
-  },
-  {
-    "id": 192,
-    "quote": "God is love; and he that dwelleth in love dwelleth in God.",
-    "speaker": "David",
-    "reference": "Psalm 23:3",
-    "subject": "Renewal",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 1
-  },
-  {
-    "id": 193,
-    "quote": "The Lord is my shepherd; I shall not want.",
-    "speaker": "Jesus",
-    "reference": "John 16:33",
-    "subject": "Resilience",
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
@@ -2269,7 +2016,7 @@
     "id": 207,
     "quote": "Cast thy burden upon the Lord, and he shall sustain thee.",
     "speaker": "David",
-    "reference": "Psalm 28:7",
+    "reference": "Psalm 55:22",
     "subject": "Strength",
     "religion": "Christian",
     "religion_order": 5,
@@ -2288,17 +2035,6 @@
     "subject_order": 5
   },
   {
-    "id": 209,
-    "quote": "And we know that all things work together for good to them that love God.",
-    "speaker": "Isaiah",
-    "reference": "Isaiah 41:10",
-    "subject": "Strength",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 6
-  },
-  {
     "id": 210,
     "quote": "I will strengthen thee; yea, I will help thee.",
     "speaker": "Isaiah",
@@ -2307,7 +2043,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 7
+    "subject_order": 6
   },
   {
     "id": 211,
@@ -2318,7 +2054,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 8
+    "subject_order": 7
   },
   {
     "id": 212,
@@ -2329,7 +2065,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 9
+    "subject_order": 8
   },
   {
     "id": 213,
@@ -2340,7 +2076,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 10
+    "subject_order": 9
   },
   {
     "id": 214,
@@ -2351,7 +2087,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 11
+    "subject_order": 10
   },
   {
     "id": 215,
@@ -2362,7 +2098,7 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 12
+    "subject_order": 11
   },
   {
     "id": 216,
@@ -2464,17 +2200,6 @@
     "subject_order": 6
   },
   {
-    "id": 225,
-    "quote": "Trust in the Lord with all thine heart.",
-    "speaker": "Solomon",
-    "reference": "Proverbs 3:5",
-    "subject": "Trust",
-    "religion": "Christian",
-    "religion_order": 5,
-    "path": "Evangelical",
-    "subject_order": 7
-  },
-  {
     "id": 226,
     "quote": "A city that is set on an hill cannot be hid.",
     "speaker": "Jesus",
@@ -2505,6 +2230,9 @@
     "religion": "Christian",
     "religion_order": 5,
     "path": "Evangelical",
-    "subject_order": 2
+    "subject_order": 1
+  },
+  {
+    "_comment": "END OF FILE - CHAPTER 1: CHRISTIANITY (EVANGELICAL PATH) - 203 QUOTES TOTAL"
   }
 ]
